@@ -30,4 +30,3 @@ for i in range(NUM_COMMITS):
 
     print(f"Committed: {formatted_date}")
 
-    time.sleep(1)  # just to avoid too fast execution
