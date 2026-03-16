@@ -28,5 +28,5 @@ for i in range(NUM_COMMITS):
     '''
 
 
-    print(f"Committed: {formatted_date}")
+
 
