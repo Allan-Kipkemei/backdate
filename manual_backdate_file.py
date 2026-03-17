@@ -22,7 +22,6 @@ for i in range(NUM_COMMITS):
     # Stage file
     os.system("git add .")
 
-    # Commit with backdated time
     command = f'''
     GIT_AUTHOR_DATE="{formatted_date}" GIT_COMMITTER_DATE="{formatted_date}" git commit -m "Update {i}"
     '''
