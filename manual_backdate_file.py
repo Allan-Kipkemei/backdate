@@ -15,8 +15,6 @@ for i in range(NUM_COMMITS):
     # Create a new date for each commit
     commit_date = start_date + datetime.timedelta(days=i*2)
 
-    formatted_date = commit_date.strftime("%Y-%m-%dT%H:%M:%S")
-
     # Make a small change to file
     with open(FILE_NAME, "a") as f:
         f.write(f"# Update {i} at {formatted_date}\n")
