@@ -19,7 +19,7 @@ for i in range(NUM_COMMITS):
     with open(FILE_NAME, "a") as f:
         f.write(f"# Update {i} at {formatted_date}\n")
 
-    # Stage file
+
     os.system("git add .")
 
     command = f'''
