@@ -3,3 +3,4 @@
 import sys
 import os
 ImportError
+import waitress
