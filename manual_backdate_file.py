@@ -28,7 +28,7 @@ for i in range(NUM_COMMITS):
     command = f'''
     GIT_AUTHOR_DATE="{formatted_date}" GIT_COMMITTER_DATE="{formatted_date}" git commit -m "Update {i}"
     '''
-    os.system(command)
+
 
     print(f"Committed: {formatted_date}")
 
