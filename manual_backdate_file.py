@@ -10,9 +10,9 @@ NUM_COMMITS = 5
 
 # Start date (past)
 start_date = datetime.datetime(2024, 1, 1, 9, 0, 0)
-
+#iterate num commit 
 for i in range(NUM_COMMITS):
-    # Create a new date for each commit
+
     commit_date = start_date + datetime.timedelta(days=i*2)
 
     # Make a small change to file
